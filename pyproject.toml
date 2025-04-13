@@ -5,6 +5,7 @@ description = "`yesterday` is a tiny Python CLI tool that tells you what day was
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+authors = [{ name = "Ilya Khrustalev", email = "ilya.khrustalev@gmail.com" }] # TODO: change the author name and email
 
 [project.scripts]
 yesterday = "yesterday_cli.main:cli"
@@ -12,3 +13,7 @@ yesterday = "yesterday_cli.main:cli"
 [build-system]
 requires = ["setuptools", "setuptools_scm[toml]"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["yesterday_cli"]
+exclude = [".venv", "tests/*", "*/tests/*"]
