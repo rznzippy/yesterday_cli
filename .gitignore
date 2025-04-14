@@ -7,3 +7,6 @@ __pycache__/
 # Distribution
 dist/
 *.egg-info/
+
+# Auto-generated version file
+yesterday_cli/_version.py

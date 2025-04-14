@@ -1,6 +1,6 @@
 [project]
 name = "yesterday-cli" # TODO: change the name of the package
-version = "0.1.0"
+dynamic = ["version"]
 description = "`yesterday` is a tiny Python CLI tool that tells you what day was yesterday. Nothing more. Nothing less."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -17,3 +17,7 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools.packages.find]
 include = ["yesterday_cli"]
 exclude = [".venv", "tests/*", "*/tests/*"]
+
+[tool.setuptools_scm]
+tag_regex = "^v(?P<version>.*)$"
+write_to = "yesterday_cli/_version.py"
