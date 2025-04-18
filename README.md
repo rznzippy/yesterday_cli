@@ -6,6 +6,10 @@ It handles all the hard work of going back in time by exactly one day — so you
 
 Built with zero dependencies, just pure Python and a mild sense of humor.
 
+## Tutorial
+
+- Medium: [Publish Your Python Package to PyPI](https://blog.ilyakhrustalev.com/publish-your-python-package-to-pypi-using-github-actions-in-2025-7def5fb989c8)
+
 ## Branches
 
 - [steps/1-boilerplate](https://github.com/rznzippy/yesterday_cli/tree/steps/1-boilerplate) – Basic project boilerplate
