@@ -21,3 +21,4 @@ exclude = [".venv", "tests/*", "*/tests/*"]
 [tool.setuptools_scm]
 tag_regex = "^v(?P<version>.*)$"
 write_to = "yesterday_cli/_version.py"
+local_scheme = "no-local-version"
